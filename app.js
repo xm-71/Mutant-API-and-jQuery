@@ -1,26 +1,24 @@
 var mutantsUrl = 'https://mutant-school.herokuapp.com/api/v1/mutants';
 
 function processMutants(mutants) {
-  $.each(mutants, function(i, mutant){
-    addMutant(mutant);
-  });
+    $.each(mutants, function(i, mutant) {
+        addMutant(mutant);
+    });
 }
 
 
-function addMutant(mutant){
-  var li = $('li.template').clone().removeClass('template').att('data-id')
-  $('body').append('<li data-id="">'+ mutant.mutant_name +'</li>');
+function addMutant(mutant) {
+    var li = $('li.template')
+        .clone()
+        .removeClass('template')
+        .att('data-id', mutant.id);
+    li.('')
+    $('body').append('<li data-id="">' + mutant.mutant_name + '</li>');
 
 }
 
 
 $.get({
-  url: mutantsUrl,
-  success: processMutants,
-});
-
-$.delete({
-url: mutantsUrl,
-success: processMutants,
-
+    url: mutantsUrl,
+    success: processMutants,
 });
