@@ -1,9 +1,11 @@
-function deleteMutant(id) {
-    $.ajax({
-        url: mutantsUrl,
-        method: 'delete',
-        success: function() {
-
-        }
-    });
+function deleteMutant(id, li) {
+  $.ajax({
+    url: mutantsUrl + '/' + id,
+    method: 'delete',
+    success: function() {
+      if (li) {
+        li.remove();
+      }
+    }
+  });
 };
