@@ -8,7 +8,8 @@ function processMutants(mutants) {
 
 
 function addMutant(mutant){
-  $('body').append('<li>'+ mutant.mutant_name +'</li>');
+  var li = $('li.template').clone().removeClass('template').att('data-id')
+  $('body').append('<li data-id="">'+ mutant.mutant_name +'</li>');
 
 }
 
