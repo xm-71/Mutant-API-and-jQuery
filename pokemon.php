@@ -24,8 +24,8 @@
                     <li><a href="#">Pokemon</a></li>
                     <li><a href="#">Class Roster</a></li>
                 </ul>
-                <li><a href="pokemon.html">Pokemon</a></li>
-                <li><a href="#">Class Roster</a></li>
+                <li><a href="pokemon.php">Pokemon</a></li>
+                <li><a href="classroster.html">Class Roster</a></li>
             </li>
 
         </ul>
@@ -37,7 +37,7 @@
     <div class="large-12 columns text-center">
         <ul id="pokemonList" class="inline-list">
             <li class="template">
-              <?php include 'pokemonList.php';?>
+              <?php includes 'pokemonList.php';?>
             </li>
         </ul>
     </div>
@@ -45,11 +45,11 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
-<script src="load-mutant.js"></script>
-<script src="delete-Mutant.js"></script>
-<script src="create.js"></script>
-<script src="update.js"></script>
-<script src="app.js"></script>
+<script src="js/load-mutant.js"></script>
+<script src="js/delete-Mutant.js"></script>
+<script src="js/create.js"></script>
+<script src="js/update.js"></script>
+<script src="js/app.js"></script>
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>
 <script src="js/vendor/foundation.js"></script>
