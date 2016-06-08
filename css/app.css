@@ -38,3 +38,9 @@
 .footer-links li {
   margin-top: .5em;
 }
+
+.inline-list{
+     display: table;
+     margin: 0 auto;
+     list-style-type: none;
+}

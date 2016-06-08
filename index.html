@@ -37,18 +37,23 @@
     <button type="submit" class="small expanded button">Create</button>
 </form>
 <form id="edit_mutant">
-    <input type="hidden" name="mutantId" >
+    <input type="hidden" name="mutantId">
     <input type="text" name="mutantName" placeholder="Enter a mutant name">
-    <button type="submit" class="small expanded button">Update</button
-      <br />
+    <button type="submit" class="small expanded button">Update
+        </button <br />
 </form>
-<ul id="mutantList">
-    <li class="template">
-        <span class="mutant-name">Wolverine</span>
-        <a href="#" class="edit">(edit)</a>
-        <a href="#" class="delete">(delete)</a>
-    </li>
-</ul>
+<div class="row">
+    <div class="large-12 columns text-center">
+        <ul id="mutantList" class="inline-list">
+            <li class="template">
+                <span class="mutant-name">Wolverine</span>
+                <a href="#" class="edit">(edit)</a>
+                <a href="#" class="delete">(delete)</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
 <script src="load-mutant.js"></script>
