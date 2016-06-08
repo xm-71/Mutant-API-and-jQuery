@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Mutants</title>
+    <title>Pokemon</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/app.css">
@@ -19,12 +19,12 @@
             <li class="menu-text">The Lists of All Lists <i class="fa fa-optin-monster fa-2x" aria-hidden="true"></i></i>
             </li>
             <li>
-                <a href="#">Mutants</a>
+                <a href="index.html">Mutants</a>
                 <ul class="menu vertical">
                     <li><a href="#">Pokemon</a></li>
                     <li><a href="#">Class Roster</a></li>
                 </ul>
-                <li><a href="pokemon.php">Pokemon</a></li>
+                <li><a href="pokemon.html">Pokemon</a></li>
                 <li><a href="#">Class Roster</a></li>
             </li>
 
@@ -32,23 +32,12 @@
     </div>
 
 </div>
-<form id="new_mutant">
-    <input type="text" name="mutantName" placeholder="Enter a mutant name">
-    <button type="submit" class="small expanded button">Create</button>
-</form>
-<form id="edit_mutant">
-    <input type="hidden" name="mutantId">
-    <input type="text" name="mutantName" placeholder="Enter a mutant name">
-    <button type="submit" class="small expanded button">Update
-        </button <br />
 </form>
 <div class="row">
     <div class="large-12 columns text-center">
-        <ul id="mutantList" class="inline-list">
+        <ul id="pokemonList" class="inline-list">
             <li class="template">
-                <span class="mutant-name">Wolverine</span>
-                <a href="#" class="edit">(edit)</a>
-                <a href="#" class="delete">(delete)</a>
+              <?php include 'pokemonList.php';?>
             </li>
         </ul>
     </div>
