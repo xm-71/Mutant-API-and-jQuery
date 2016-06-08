@@ -26,6 +26,7 @@
                 </ul>
                 <li><a href="pokemon.php">Pokemon</a></li>
                 <li><a href="classroster.html">Class Roster</a></li>
+                <li><a href="rivalries.html">Rivalries</a></li>
             </li>
 
         </ul>
