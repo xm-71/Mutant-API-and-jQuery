@@ -33,6 +33,7 @@
     </div>
 
 </div>
+
 </form>
 <ul id="pokemonList" class="inline-list">
       <li class="template">
@@ -41,14 +42,21 @@
         </span>
       </li>
     </ul>
+<input type="number" id="number" value="1" />
+    <img id="sprite" src="">
+<pre id="output"></pre>
+<button id="generate" class="small expanded button">Load</button>
+<br />
+<audio controls class="inline-list">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="pokemon.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
-<script src="js/load-mutant.js"></script>
-<script src="js/delete-Mutant.js"></script>
-<script src="js/create.js"></script>
-<script src="js/update.js"></script>
 <script src="js/pokemonList.js"></script>
+<script src="js/load-pokemon.js"></script>
 <script src="js/app.js"></script>
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>
