@@ -43,8 +43,8 @@
       </li>
     </ul>
 <input type="number" id="number" value="1" />
-    <img id="sprite" src="">
-<pre id="output"></pre>
+    <img id="sprite" src="" class="inline-list">
+<pre id="output" class="inline-list"></pre>
 <button id="generate" class="small expanded button">Load</button>
 <br />
 <audio controls class="inline-list">

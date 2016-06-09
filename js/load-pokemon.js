@@ -7,11 +7,22 @@ function generatePokemon(callback) {
       pokemon = {};
 
 var getNumber = document.getElementById("number").value;
-
+var Uno = 1;
+var addOne = parseInt(getNumber) + 1;
 
 
   function fetchNumber(endpoint, callback) {
     var url = BASE_URL + "/api/v1/" + endpoint + "/" + getNumber;
+    return $.ajax({
+      type: "GET",
+      url: url,
+      dataType: "jsonp",
+      success: callback
+    });
+  }
+
+  function fetchNumber_Fix(endpoint, callback) {
+    var url = BASE_URL + "/api/v1/" + endpoint + "/" + addOne;
     return $.ajax({
       type: "GET",
       url: url,
@@ -40,7 +51,7 @@ var getNumber = document.getElementById("number").value;
   }));
 
   // fetch pokemon sprite
-  fetches.push(fetchNumber('sprite', function (data) {
+  fetches.push(fetchNumber_Fix('sprite', function (data) {
     pokemon.image = BASE_URL + data.image;
   }));
 
