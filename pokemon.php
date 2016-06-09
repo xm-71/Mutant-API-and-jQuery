@@ -34,15 +34,13 @@
 
 </div>
 </form>
-<div class="row">
-    <div class="large-12 columns text-center">
-        <ul id="pokemonList" class="inline-list">
-            <li class="template">
-              <?php includes 'pokemonList.php';?>
-            </li>
-        </ul>
-    </div>
-</div>
+<ul id="pokemonList" class="inline-list">
+      <li class="template">
+        <span class="pokemon-name">
+          <a href="#"></a>
+        </span>
+      </li>
+    </ul>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
@@ -50,6 +48,7 @@
 <script src="js/delete-Mutant.js"></script>
 <script src="js/create.js"></script>
 <script src="js/update.js"></script>
+<script src="js/pokemonList.js"></script>
 <script src="js/app.js"></script>
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>
