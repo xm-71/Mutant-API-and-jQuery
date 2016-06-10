@@ -1,6 +1,6 @@
 function generatePokemon(callback) {
   // "constants"
-  var MAX_POKEMON_ID = 718,
+  var //MAX_POKEMON_ID = 718,
       BASE_URL = "http://pokeapi.co";
 
   var fetches = [],
