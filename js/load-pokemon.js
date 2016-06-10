@@ -7,7 +7,7 @@ function generatePokemon(callback) {
       pokemon = {};
 
 var getNumber = document.getElementById("number").value;
-var Uno = 1;
+//var Uno = 1;
 var addOne = parseInt(getNumber) + 1;
 
 

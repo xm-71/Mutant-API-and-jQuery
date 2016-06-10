@@ -16,8 +16,7 @@
 <div class="top-bar">
     <div class="top-bar-left">
         <ul class="dropdown menu" data-dropdown-menu>
-            <li class="menu-text">The Lists of All Lists <i class="fa fa-optin-monster fa-2x" aria-hidden="true"></i></i>
-            </li>
+            <li class="menu-text">The Lists of All Lists</li>
             <li>
                 <a href="index.html">Mutants</a>
                 <ul class="menu vertical">
@@ -33,15 +32,8 @@
     </div>
 
 </div>
+<br />
 
-</form>
-<ul id="pokemonList" class="inline-list">
-      <li class="template">
-        <span class="pokemon-name">
-          <a href="#"></a>
-        </span>
-      </li>
-    </ul>
 <input type="number" id="number" value="1" />
     <img id="sprite" src="" class="inline-list">
 <pre id="output" class="inline-list"></pre>
